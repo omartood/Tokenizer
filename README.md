@@ -157,4 +157,4 @@ Have questions or suggestions? Open an issue or reach out!
 
 ---
 
-Made with ❤️ using Next.js and Tiktoken
+Made with ToodMind ❤️ using Next.js and Tiktoken
