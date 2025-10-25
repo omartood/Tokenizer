@@ -8,7 +8,7 @@ A beautiful, real-time tokenization visualizer for AI language models. See exact
 
 ## 📸 Screenshots
 
-![Token Visualizer Interface](./public/screenshot.png)
+![Token Visualizer Interface](./app/images/image.png)
 
 > **Note**: To add your screenshot, take a screenshot of the app and save it as `public/screenshot.png`
 
@@ -154,7 +154,7 @@ Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.m
 
 ## 📸 Adding Screenshots
 
-Want to add screenshots to your fork? Check out the ![Screenshot Guide](./app/images/image.png) for tips on:
+Want to add screenshots to your fork? Check out the [Screenshot Guide](./app/images/image.png) for tips on:
 
 - Taking great screenshots
 - Creating animated demos
