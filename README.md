@@ -6,6 +6,12 @@ A beautiful, real-time tokenization visualizer for AI language models. See exact
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38bdf8?style=for-the-badge&logo=tailwind-css)
 
+## 📸 Screenshots
+
+![Token Visualizer Interface](./public/screenshot.png)
+
+> **Note**: To add your screenshot, take a screenshot of the app and save it as `public/screenshot.png`
+
 ## ✨ Features
 
 - 🎯 **Real-time Tokenization** - See tokens update as you type
@@ -135,14 +141,33 @@ npm start
 
 MIT License - feel free to use this project for personal or commercial purposes.
 
+See [LICENSE](./LICENSE) for full details.
+
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
+Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.md) for details on:
 
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
+- How to submit pull requests
+- Code style guidelines
+- Feature ideas and roadmap
+- Bug reporting process
+
+## 📸 Adding Screenshots
+
+Want to add screenshots to your fork? Check out the [Screenshot Guide](./SCREENSHOT_GUIDE.md) for tips on:
+
+- Taking great screenshots
+- Creating animated demos
+- Best practices for documentation
+
+## 📚 Documentation
+
+- [README.md](./README.md) - Main documentation (you are here)
+- [CONTRIBUTING.md](./CONTRIBUTING.md) - How to contribute
+- [CHANGELOG.md](./CHANGELOG.md) - Version history
+- [SCREENSHOT_GUIDE.md](./SCREENSHOT_GUIDE.md) - Screenshot instructions
+- [PROJECT_FILES.md](./PROJECT_FILES.md) - Project structure overview
+- [LICENSE](./LICENSE) - MIT License
 
 ## 🙏 Acknowledgments
 
@@ -155,6 +180,15 @@ Contributions are welcome! Feel free to:
 
 Have questions or suggestions? Open an issue or reach out!
 
+## ⭐ Show Your Support
+
+If you find this project helpful, please consider:
+- ⭐ Starring the repository
+- 🐛 Reporting bugs
+- 💡 Suggesting features
+- 🤝 Contributing code
+- 📢 Sharing with others
+
 ---
 
-Made with ToodMind ❤️ using Next.js and Tiktoken
+Made with ❤️ using Next.js and Tiktoken
