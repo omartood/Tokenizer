@@ -154,7 +154,7 @@ Contributions are welcome! Please read our [Contributing Guide](./CONTRIBUTING.m
 
 ## 📸 Adding Screenshots
 
-Want to add screenshots to your fork? Check out the [Screenshot Guide](./SCREENSHOT_GUIDE.md) for tips on:
+Want to add screenshots to your fork? Check out the ![Screenshot Guide](./app/images/image.png) for tips on:
 
 - Taking great screenshots
 - Creating animated demos
@@ -191,4 +191,4 @@ If you find this project helpful, please consider:
 
 ---
 
-Made with ❤️ using Next.js and Tiktoken
+Made with ToodMind ❤️ using Next.js and Tiktoken
