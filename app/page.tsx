@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Tiktoken, getEncoding } from 'js-tiktoken';
 
 export default function Home() {
-  const [text, setText] = useState('hello world');
+  const [text, setText] = useState('');
   const [tokens, setTokens] = useState<number[]>([]);
   const [tokenStrings, setTokenStrings] = useState<string[]>([]);
   const [model, setModel] = useState('cl100k_base');
@@ -240,7 +240,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-12 text-center">
           <p className="text-sm text-gray-400">
-            Powered by <span className="text-purple-400 font-semibold">Next.js</span> & <span className="text-pink-400 font-semibold">Tiktoken</span>
+            Powered by <span className="text-purple-400 font-semibold">ToodMind</span> & <span className="text-pink-400 font-semibold">Tiktoken</span>
           </p>
         </footer>
       </div>
