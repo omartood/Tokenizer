@@ -62,13 +62,21 @@ export default function Home() {
 
       <div className="relative max-w-6xl mx-auto px-6 py-12">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 mb-4 tracking-tight">
-            Tokenizer
-          </h1>
-          <p className="text-lg text-gray-300 font-light">
-            Visualize AI tokenization in real-time
-          </p>
+        <div className="flex items-center justify-between mb-12">
+          <div>
+            <h1 className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 mb-4 tracking-tight">
+              Tokenizer
+            </h1>
+            <p className="text-lg text-gray-300 font-light">
+              Visualize AI tokenization in real-time
+            </p>
+          </div>
+          <a
+            href="/embeddings"
+            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-xl text-white font-semibold transition-all shadow-lg"
+          >
+            🧠 Embeddings →
+          </a>
         </div>
 
         {/* Main Card */}

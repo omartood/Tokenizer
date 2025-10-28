@@ -14,15 +14,24 @@ A beautiful, real-time tokenization visualizer for AI language models. See exact
 
 ## ✨ Features
 
+### Tokenization
 - 🎯 **Real-time Tokenization** - See tokens update as you type
-- 🎨 **Beautiful Dark UI** - Gradient backgrounds with glassmorphism effects
 - 🤖 **Multiple Models** - Support for GPT-4, GPT-3.5, GPT-3, Codex, and GPT-2
 - 📊 **Statistics Dashboard** - Character count, word count, token count, and cost estimation
 - 💰 **Cost Calculator** - Estimate API costs before making calls
-- 📋 **Copy to Clipboard** - Quick copy for text and token IDs
-- 💾 **Export Data** - Download tokenization data as JSON
 - 🎨 **Color-coded Tokens** - Each token gets a unique color for easy visualization
 - ⚡ **Hover Effects** - Interactive token badges with smooth animations
+
+### Embeddings (NEW!)
+- 🧠 **Vector Embeddings** - Generate semantic embeddings using OpenAI
+- 📝 **Multiple Types** - Word, Sentence, Document, and Contextual embeddings
+- 📊 **Vector Analysis** - View dimensions, magnitude, and vector data
+- 📋 **Export Options** - Copy vectors or export as JSON
+
+### General
+- 🎨 **Beautiful Dark UI** - Gradient backgrounds with glassmorphism effects
+- 📋 **Copy to Clipboard** - Quick copy for text and token IDs
+- 💾 **Export Data** - Download tokenization data as JSON
 
 ## 🚀 Getting Started
 
@@ -44,12 +53,24 @@ cd tokention
 npm install
 ```
 
-3. Run the development server:
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
+
+Then edit `.env.local` and add your OpenAI API key:
+```
+OPENAI_API_KEY=sk-your-api-key-here
+```
+
+Get your API key from [OpenAI Platform](https://platform.openai.com/api-keys)
+
+4. Run the development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 🎯 Usage
 
